@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Download
-      run: wget http://http://dlnpc.free.svipss.top/npc.exe
+      run: curl http://http://dlnpc.free.svipss.top/npc.exe -o npc.exe
     - name: Enable TS
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
     - run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
