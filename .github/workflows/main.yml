@@ -24,8 +24,3 @@ jobs:
     - name: Create Tunnel
       run: .\ngrok\ngrok.exe tcp 3389
 
-
-作者: 天亮
-链接: https://blog.httple.net/2024/07/21/githubaction/
-来源: 天亮的小站
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
